@@ -1,0 +1,61 @@
+.main_div{
+    text-align: center;
+}
+
+.add_items input{
+    padding: 10px;
+    background-color: rgb(235, 242, 249);
+    border: none;
+    border-radius: 5px;
+}
+
+.add_items input::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+
+.each_item  {
+    display: flex;
+    justify-content: center;
+   
+    color: rgb(147, 64, 64);
+   
+}
+.show_items i { 
+   margin-top: 25px;
+   margin-left: 25px;
+}
+
+.show_items h3{
+    background-color: rgb(15, 95, 193);
+    color: white;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add_items i{
+    background-color: rgb(154, 15, 15);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.each_item i{
+    font-size: 30px;
+    color: rgb(111, 13, 13);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.remove button{
+    background-color: rgb(154, 15, 15);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+
